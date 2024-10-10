@@ -1,0 +1,26 @@
+.social-link {
+    display: inline-block; /* чтобы можно было использовать размеры */
+    width: 48px;
+    height: 46px;
+    font-size: 0;
+    line-height: 0;
+    text-decoration: none;
+    background-image: url("sprite.jpg");
+    background-repeat: no-repeat;
+  }
+  
+  .vk {
+    background-position: -8px -58px;
+  }
+  
+  .mail {
+    background-position: -64px -58px;
+  }
+  
+  .vk:hover {
+    background-position: -8px -3px;
+  }
+  
+  .mail:hover {
+    background-position: -64px -3px;
+  } 
